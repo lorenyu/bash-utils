@@ -17,6 +17,6 @@ fi
 #   \e[0;30m    black text  \e[m
 #   \e[0;34m    blue text \e[m
 #   \e[0;33m    brown text  \e[m
-export PS1='\e[0;30m$(__path_from_gitroot)\e[m\e[0;34m$(__git_ps1 " (%s)") \e[m\e[0;33m\D{%F %H:%m}\e[m\$ '
+export PS1='\e[0;33m$(__path_from_gitroot)\e[m\e[0;34m$(__git_ps1 " (%s)") \e[m\e[0;33m\D{%F %H:%m}\e[m\$ '
 
 # <<<<<<<<<<<<<<<<<<
