@@ -18,6 +18,9 @@
 
 [ -f /Users/loren/Projects/bash-utils/git-working-directory.sh ] && source /Users/loren/Projects/bash-utils/git-working-directory.sh
 
+# ssh completions
+[ -f /Users/loren/Projects/bash-utils/ssh-completion.sh ] && source /Users/loren/Projects/bash-utils/ssh-completion.sh
+
 # Hook up direnv to the shell (see https://direnv.net/)
 eval "$(direnv hook bash)"
 
