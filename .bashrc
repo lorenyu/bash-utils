@@ -24,4 +24,7 @@
 # Hook up direnv to the shell (see https://direnv.net/)
 eval "$(direnv hook bash)"
 
+# bash-completion https://davidalger.com/posts/bash-completion-on-os-x-with-brew/
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
 # <<<<<<<<<<<<<<<<<<
