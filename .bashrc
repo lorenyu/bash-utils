@@ -3,7 +3,7 @@
 
 # script that allows you to see repository status in your prompt.
 # downloaded from https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh
-[ -f /Users/loren/Projects/bash-utils/git-prompt.sh ] && source /Users/loren/Projects/bash-utils/git-prompt.sh
+[ -f ~/Projects/bash-utils/git-prompt.sh ] && source ~/Projects/bash-utils/git-prompt.sh
 
 # tabtab source for serverless package
 # uninstall by removing these lines or running `tabtab uninstall serverless`
@@ -14,12 +14,12 @@
 
 # git completions
 # downloaded from https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
-[ -f /Users/loren/Projects/bash-utils/git-completion.bash ] && source /Users/loren/Projects/bash-utils/git-completion.bash
+[ -f ~/Projects/bash-utils/git-completion.bash ] && source ~/Projects/bash-utils/git-completion.bash
 
-[ -f /Users/loren/Projects/bash-utils/git-working-directory.sh ] && source /Users/loren/Projects/bash-utils/git-working-directory.sh
+[ -f ~/Projects/bash-utils/git-working-directory.sh ] && source ~/Projects/bash-utils/git-working-directory.sh
 
 # ssh completions
-[ -f /Users/loren/Projects/bash-utils/ssh-completion.sh ] && source /Users/loren/Projects/bash-utils/ssh-completion.sh
+[ -f ~/Projects/bash-utils/ssh-completion.sh ] && source ~/Projects/bash-utils/ssh-completion.sh
 
 # Hook up direnv to the shell (see https://direnv.net/)
 eval "$(direnv hook bash)"
