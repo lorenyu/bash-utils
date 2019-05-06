@@ -14,9 +14,10 @@ fi
 #   %F     Equivalent to %Y-%m-%d (the ISO 8601 date format). (C99)
 #   %T     The time in 24-hour notation (%H:%M:%S). (SU)
 # For the colors, see https://www.cyberciti.biz/faq/bash-shell-change-the-color-of-my-shell-prompt-under-linux-or-unix/
-#   \e[0;30m    black text  \e[m
-#   \e[0;34m    blue text \e[m
-#   \e[0;33m    brown text  \e[m
-export PS1='\e[0;33m$(__path_from_gitroot)\e[m\e[0;34m$(__git_ps1 " (%s)") \e[m\e[0;33m\D{%F %H:%m}\e[m\$ '
+#   \[\e[0;30m\]    black text  \[\e[m\]
+#   \[\e[0;34m\]    blue text   \[\e[m\]
+#   \[\e[0;33m\]    brown text  \[\e[m\]
+# Wrap things that have length zero in \[ \]
+export PS1='\[\e[0;33m\]$(__path_from_gitroot)\[\e[m\]\[\e[0;34m\]$(__git_ps1 " (%s)") \[\e[m\]\[\e[0;33m\]\D{%F %H:%m}\[\e[m\]\$ '
 
 # <<<<<<<<<<<<<<<<<<
